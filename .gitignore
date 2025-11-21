@@ -1,23 +1,30 @@
-# Ignore large model files
-models/**/*.safetensors
-models/**/*.pt
-models/**/*.pth
-models/**/*.bin
-
-# Ignore checkpoints
-models/**/optimizer.pt
-models/**/rng_state.pth
-models/**/scheduler.pt
-models/**/training_args.bin
-
-# Ignore temporary files
-src/.ipynb_checkpoints/
+# Python
 __pycache__/
+*.pyc
 
-# Ignore images if not needed
-*.png
-*.jpg
-*.jpeg
+# Environment
+env/
+.venv/
+*.env
 
-# Ignore HTML generated output
+# VSCode
+.vscode/
+
+# Model files
+models/**/*.safetensors
+models/**/*.bin
+models/**/optimizer.pt
+models/**/scheduler.pt
+models/**/trainer_state.json
+models/**/rng_state.pth
+
+# Checkpoints
+models/**/checkpoint-*/
+
+# Streamlit temp
 app/tmp_network.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
