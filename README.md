@@ -46,6 +46,7 @@ Learns:
 ---
 
 # Project Structure
+```pgsql
 character-network-dialogue-sentiment/
 │
 ├── data/
@@ -74,7 +75,7 @@ character-network-dialogue-sentiment/
 │ └── streamlit_app.py
 │
 └── README.md
-
+```
 
 ---
 
@@ -150,3 +151,4 @@ Emotion Detected for Person X: {emotion_x}
 Predicted Reaction:
 "In reaction to this utterance, it's {confidence_emotion_y} likely that the next person will respond in {emotion_y}."
 ```
+
