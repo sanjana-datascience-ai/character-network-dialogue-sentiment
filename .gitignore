@@ -28,3 +28,8 @@ app/tmp_network.html
 .DS_Store
 Thumbs.db
 
+Terminal_Screenshot/
+*.png
+*.jpeg
+*.jpg
+
