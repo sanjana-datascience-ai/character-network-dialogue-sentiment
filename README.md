@@ -124,19 +124,19 @@ streamlit run src/app/streamlit_app.py
 ```
 
 ## Visualizations Included
-✔ Emotion distribution (bar + pie)
-✔ Utterances per speaker
-✔ Dialogue lengths
-✔ Emotion × speaker patterns
-✔ Word clouds per emotion
-✔ Top bigrams
-✔ Token length per emotion
-✔ Empirical emotion transition matrix
-✔ Model-based transition results
-✔ Character Network (PyVis)
-✔ Ego Networks
-✔ Adjacency matrices
-✔ Centrality plots (degree, betweenness)
+- Emotion distribution (bar + pie)
+- Utterances per speaker
+- Dialogue lengths
+- Emotion × speaker patterns
+- Word clouds per emotion
+- Top bigrams
+- Token length per emotion
+- Empirical emotion transition matrix
+- Model-based transition results
+- Character Network (PyVis)
+- Ego Networks
+- Adjacency matrices
+- Centrality plots (degree, betweenness)
 
 Each visualization answers a key question about emotional behavior in conversations.
 
@@ -157,3 +157,4 @@ Predicted Reaction:
 * 4th year Student
 * B.Tech (Hons) Data Science
 * Vidyashilp University, Bengaluru
+
