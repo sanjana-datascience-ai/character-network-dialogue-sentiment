@@ -1387,7 +1387,7 @@ def render_about():
                 <div class="profile-links">
                     <a href="mailto:2022sanjana.r@vidyashilp.edu.in">Email</a>
                     <a href="https://www.linkedin.com/in/sanjana-ravindra-761393355?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/sanjana-datascience-ai" target="_blank">GitHub</a>
+                    <a href="https://github.com/sanjana-datascience-ai/character-network-dialogue-sentiment" target="_blank">GitHub</a>
                 </div>
             </div>
             """,
