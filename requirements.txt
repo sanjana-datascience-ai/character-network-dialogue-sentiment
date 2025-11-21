@@ -1,0 +1,25 @@
+# Core Python Libraries
+pandas
+numpy
+matplotlib
+scikit-learn
+openpyxl
+
+# NLP & Deep Learning
+spacy
+transformers
+torch
+vaderSentiment
+
+# Visualization & Dashboard
+networkx
+plotly
+pyvis
+streamlit
+
+# Optional Utilities
+tqdm
+seaborn
+
+# SpaCy Language Model (run separately)
+# python -m spacy download en_core_web_sm

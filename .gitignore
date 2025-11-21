@@ -1,0 +1,23 @@
+# Ignore large model files
+models/**/*.safetensors
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+
+# Ignore checkpoints
+models/**/optimizer.pt
+models/**/rng_state.pth
+models/**/scheduler.pt
+models/**/training_args.bin
+
+# Ignore temporary files
+src/.ipynb_checkpoints/
+__pycache__/
+
+# Ignore images if not needed
+*.png
+*.jpg
+*.jpeg
+
+# Ignore HTML generated output
+app/tmp_network.html

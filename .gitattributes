@@ -1,0 +1,4 @@
+*.safetensors filter=lfs diff=lfs merge=lfs
+*.pt filter=lfs diff=lfs merge=lfs
+*.pth filter=lfs diff=lfs merge=lfs
+*.bin filter=lfs diff=lfs merge=lfs
